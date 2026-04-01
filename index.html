@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.pinimg.com/736x/e1/51/7f/e1517fe8044b782007bb03f66b9c5697.jpg);
+            margin: 0;
+        }
+       @font-face {
+    font-family: 'Headerfont'; 
+    src: url('Spinstee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+        header {
+             background-image: url(https://i.pinimg.com/1200x/e1/ed/bd/e1edbd0ffeea3a204d7bb7bb5f3dabc4.jpg);
+            background-size : cover; 
+            color: #5A2A27;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+    font-family: 'Headerfont', sans-serif; 
+text-shadow: 2px 2px 5px white;
+        }
+
+        nav {
+            background-color: #FAA4B5;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #FEFBEA;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #FAA4B5;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+            background-color: #FAA4B5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO LATISHA QAWIYYU</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini adalah media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+               Topik argumentasi yang saya pilih adalah tempat saya melakukan kegiatan IC, yaitu Sabira by Rina Oshibana. Karena saya melakukan kegiatan IC disana
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+                (Tuliskan harapan atau pesan yang ingin kamu sampaikan
+                kepada penonton setelah menonton video.)
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+                (Tuliskan hal-hal yang telah kamu pelajari melalui ujian
+                praktik ini atau selama belajar di kelas IX, serta kesan
+                dan pesan selama belajar di SMPIT Al Haraki.)
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="https://i.pinimg.com/736x/e1/f6/28/e1f628b40442d0ecf6317448d705d043.jpg" alt="Gambar Bebas 1">
+            <img src="https://i.pinimg.com/736x/ec/00/38/ec0038ca8ba7d89324f52664f0a11180.jpg" alt="Gambar Bebas 2">
+            <img src="https://i.pinimg.com/736x/9c/86/47/9c864733315cd0cb9b009894c6385969.jpg" alt="Gambar Bebas 3">
+            <img src="https://i.pinimg.com/736x/7f/36/a8/7f36a8af1e18adf44c4a68709a19c87c.jpg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Latisha Qawiyyu Nurhafa@2026 </p>
+</footer>
+
+</body>
+</html>
